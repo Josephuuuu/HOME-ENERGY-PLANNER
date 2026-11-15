@@ -1,0 +1,28 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Matplotlib cache directory
+.mpl/
+
+# Large raw dataset files (> 100 MB exceeds GitHub push limits)
+data/raw/household_power_consumption.txt
+data/raw/*.txt
+data/raw/*.zip
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

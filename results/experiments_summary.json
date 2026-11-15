@@ -1,0 +1,220 @@
+{
+  "experiment_1_search": {
+    "UCS_nodes_expanded": "336.50 +/- 1.73",
+    "AStar_nodes_expanded": "333.13 +/- 1.34",
+    "UCS_nodes_generated": "1405.34 +/- 28.42",
+    "AStar_nodes_generated": "1391.05 +/- 28.66",
+    "UCS_runtime_ms": "7.61 +/- 0.87",
+    "AStar_runtime_ms": "8.98 +/- 0.76",
+    "node_reduction_pct": "1.00%",
+    "admissibility_violations": 0,
+    "states_checked": 3600,
+    "is_strictly_admissible": true,
+    "seed_details": [
+      {
+        "seed": 42,
+        "ucs_nodes": 335.6,
+        "astar_nodes": 332.96666666666664,
+        "ucs_gen": 1381.2333333333333,
+        "astar_gen": 1369.5666666666666,
+        "ucs_time": 9.301333333333334,
+        "astar_time": 8.457666666666666,
+        "max_cost_diff": 0.0
+      },
+      {
+        "seed": 101,
+        "ucs_nodes": 338.46666666666664,
+        "astar_nodes": 334.2,
+        "ucs_gen": 1459.5,
+        "astar_gen": 1445.2,
+        "ucs_time": 7.529666666666668,
+        "astar_time": 9.02566666666667,
+        "max_cost_diff": 0.0
+      },
+      {
+        "seed": 2024,
+        "ucs_nodes": 338.0,
+        "astar_nodes": 334.43333333333334,
+        "ucs_gen": 1387.3,
+        "astar_gen": 1368.3666666666666,
+        "ucs_time": 7.109,
+        "astar_time": 8.523333333333333,
+        "max_cost_diff": 0.0
+      },
+      {
+        "seed": 777,
+        "ucs_nodes": 333.6666666666667,
+        "astar_nodes": 330.6666666666667,
+        "ucs_gen": 1407.3,
+        "astar_gen": 1394.6666666666667,
+        "ucs_time": 6.978,
+        "astar_time": 8.475333333333333,
+        "max_cost_diff": 0.0
+      },
+      {
+        "seed": 999,
+        "ucs_nodes": 336.76666666666665,
+        "astar_nodes": 333.4,
+        "ucs_gen": 1391.3666666666666,
+        "astar_gen": 1377.4333333333334,
+        "ucs_time": 7.113666666666666,
+        "astar_time": 10.440666666666665,
+        "max_cost_diff": 0.0
+      }
+    ]
+  },
+  "experiment_2_csp": {
+    "3_appliances": {
+      "BT": {
+        "assignments": "4.32 +/- 1.97",
+        "backtracks": "1.32 +/- 1.97",
+        "runtime_ms": "0.01 +/- 0.01",
+        "raw_means": {
+          "assignments": 4.32,
+          "backtracks": 1.32,
+          "runtime_ms": 0.013600000000000001
+        }
+      },
+      "BT_FC": {
+        "assignments": "3.68 +/- 0.51",
+        "backtracks": "0.68 +/- 0.51",
+        "runtime_ms": "0.10 +/- 0.01",
+        "raw_means": {
+          "assignments": 3.68,
+          "backtracks": 0.68,
+          "runtime_ms": 0.096
+        }
+      },
+      "BT_FC_AC3": {
+        "assignments": "3.00 +/- 0.00",
+        "backtracks": "0.00 +/- 0.00",
+        "runtime_ms": "0.16 +/- 0.02",
+        "raw_means": {
+          "assignments": 3.0,
+          "backtracks": 0.0,
+          "runtime_ms": 0.15680000000000002
+        }
+      }
+    },
+    "5_appliances": {
+      "BT": {
+        "assignments": "7.80 +/- 11.19",
+        "backtracks": "2.80 +/- 11.19",
+        "runtime_ms": "0.03 +/- 0.03",
+        "raw_means": {
+          "assignments": 7.8,
+          "backtracks": 2.8,
+          "runtime_ms": 0.034
+        }
+      },
+      "BT_FC": {
+        "assignments": "5.92 +/- 0.48",
+        "backtracks": "0.92 +/- 0.48",
+        "runtime_ms": "0.35 +/- 0.04",
+        "raw_means": {
+          "assignments": 5.92,
+          "backtracks": 0.92,
+          "runtime_ms": 0.3484
+        }
+      },
+      "BT_FC_AC3": {
+        "assignments": "5.04 +/- 0.28",
+        "backtracks": "0.04 +/- 0.28",
+        "runtime_ms": "0.47 +/- 0.05",
+        "raw_means": {
+          "assignments": 5.04,
+          "backtracks": 0.04,
+          "runtime_ms": 0.46519999999999995
+        }
+      }
+    },
+    "8_appliances": {
+      "BT": {
+        "assignments": "131.52 +/- 532.60",
+        "backtracks": "123.52 +/- 532.60",
+        "runtime_ms": "0.56 +/- 2.15",
+        "raw_means": {
+          "assignments": 131.52,
+          "backtracks": 123.52,
+          "runtime_ms": 0.5631999999999999
+        }
+      },
+      "BT_FC": {
+        "assignments": "9.02 +/- 1.63",
+        "backtracks": "1.02 +/- 1.63",
+        "runtime_ms": "1.05 +/- 0.16",
+        "raw_means": {
+          "assignments": 9.02,
+          "backtracks": 1.02,
+          "runtime_ms": 1.0532000000000001
+        }
+      },
+      "BT_FC_AC3": {
+        "assignments": "8.20 +/- 0.98",
+        "backtracks": "0.20 +/- 0.98",
+        "runtime_ms": "1.39 +/- 0.19",
+        "raw_means": {
+          "assignments": 8.2,
+          "backtracks": 0.2,
+          "runtime_ms": 1.3916
+        }
+      }
+    }
+  },
+  "experiment_3_integration": {
+    "NN_cost_simulated": "$7.30 +/- $0.15",
+    "Yesterday_cost_simulated": "$7.35 +/- $0.11",
+    "NN_violation_hours": "0.53 +/- 0.27",
+    "Yesterday_violation_hours": "0.26 +/- 0.09",
+    "NN_violation_energy_kwh": "0.276 +/- 0.153 kWh",
+    "Yesterday_violation_energy_kwh": "0.175 +/- 0.103 kWh",
+    "violation_hour_reduction_pct": "-105.1%",
+    "seed_details": [
+      {
+        "seed": 42,
+        "nn_cost": 7.369666576385498,
+        "yest_cost": 7.432000000000001,
+        "nn_viol_hours": 0.4,
+        "yest_viol_hours": 0.3333333333333333,
+        "nn_viol_kwh": 0.278199998040994,
+        "yest_viol_kwh": 0.3239000000000001
+      },
+      {
+        "seed": 101,
+        "nn_cost": 7.524666786193848,
+        "yest_cost": 7.469666666666667,
+        "nn_viol_hours": 1.0666666666666667,
+        "yest_viol_hours": 0.26666666666666666,
+        "nn_viol_kwh": 0.5462000005568067,
+        "yest_viol_kwh": 0.12276666666666666
+      },
+      {
+        "seed": 2024,
+        "nn_cost": 7.2273335456848145,
+        "yest_cost": 7.342666666666665,
+        "nn_viol_hours": 0.36666666666666664,
+        "yest_viol_hours": 0.1,
+        "nn_viol_kwh": 0.09423333356777827,
+        "yest_viol_kwh": 0.024900000000000002
+      },
+      {
+        "seed": 777,
+        "nn_cost": 7.079667091369629,
+        "yest_cost": 7.143666666666666,
+        "nn_viol_hours": 0.36666666666666664,
+        "yest_viol_hours": 0.3333333333333333,
+        "nn_viol_kwh": 0.2913333381797808,
+        "yest_viol_kwh": 0.24569999999999997
+      },
+      {
+        "seed": 999,
+        "nn_cost": 7.289999485015869,
+        "yest_cost": 7.352666666666666,
+        "nn_viol_hours": 0.4666666666666667,
+        "yest_viol_hours": 0.26666666666666666,
+        "nn_viol_kwh": 0.16996666503449281,
+        "yest_viol_kwh": 0.15823333333333334
+      }
+    ]
+  }
+}

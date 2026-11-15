@@ -1,0 +1,17 @@
+{
+  "Neural_Network_MLP": {
+    "MAE_kW": 0.4556,
+    "RMSE_kW": 0.6403,
+    "MAPE_percent": 56.75
+  },
+  "Same_Hour_Yesterday": {
+    "MAE_kW": 0.5501,
+    "RMSE_kW": 0.8191,
+    "MAPE_percent": 67.93
+  },
+  "Same_Hour_Last_Week": {
+    "MAE_kW": 0.5919,
+    "RMSE_kW": 0.8479,
+    "MAPE_percent": 77.37
+  }
+}
